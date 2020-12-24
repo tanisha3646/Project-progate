@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+body{
+    background-color: rgb(231, 73, 0);
+}
+.pro{
+    margin:2px 70px;
+    width:100px;
+    padding:0 18px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 24px;
+    background-color: rgba(135, 206, 235,0.5);
+    color: black;
+}
+.pro:hover{
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+}
+.pro span{
+    font-family: 'Permanent Marker', cursive;
+}
+.logo{
+   margin: 0 70px;
+}
+.logo-img{
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    float: left;
+}
+.logo p{
+    font-size: 24px;
+    padding-top: 25px;
+}
+/* ul li{
+    height: 100px;
+    color: blanchedalmond;
+}
+ul li a{
+     text-decoration: none;
+     color: white;
+} */
+.fab{
+    font-size: 100px;
+    color:blue;
+    background-color: black;
+}
+.container{
+    margin: 0 30px;
+    height: 1700px;
+    background-image: url(5.jpg);
+    padding: 80px;
+    border-radius: 30px;
+    color: white;
+}
+.box1{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    letter-spacing: 3px;
+    font-size: 40px;
+    letter-spacing: 7px;
+}
+.box1 span{
+     letter-spacing: 30px;
+}
+.box1 h1::before{
+    content:"TANISHA JAIN";
+    animation: t2 5s ease-in-out 0s infinite ;
+    animation: t1 6s none 0s infinite ;
+font-size: 40px;
+
+}
+@keyframes t1{
+    from{
+        content: "TANISHA JAIN";
+        font-size: 40px;
+        color: white;
+    }
+    to{
+        content: "STUDENT OF COMPUTER SCIENCE AND ENGINEERING";
+        font-size: 22px;
+        color: rgb(231, 73, 0) ;
+    }
+}
+/* @keyframes t2{
+    from{
+       content: "TANISHA JAIN";
+       color: white;
+    }
+    to{
+       content: "STUDENT OF COMPUTER SCIENCE AND ENGINEERING";
+       color: rgb(231, 73, 0) ;
+    }
+} */
+.bg{
+    margin: 44px 0;
+}
+.bg h1{
+    font-size: 250px;
+    color: rgba(89, 230, 183, 0.8);
+    margin: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+    text-decoration: underline;
+}
+.bg h3{
+    font-size: 50px;
+    margin: 0 142px;
+    padding: 0px 34px;
+}
+.bg p span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bg p{
+    width: 50rem;
+    margin: 0 12px;
+    padding: 0 10px;
+    font-size: 25px;
+}
+.bg p span{
+    font-family: 'Permanent Marker', cursive;
+}
+.mypic{
+    float: right;
+    width: 25rem;
+    height: 35rem;
+    border-radius: 20px;
+}
+.mid{
+    font-size: 40px;
+    margin: 10px 142px;
+    padding:20px 34px;
+    font-family: 'Baloo Bhai 2', cursive;
+    color:  rgb(81, 255, 183);
+    font-weight: bold;
+}
+h2{
+    margin: 0 auto;
+}
+.email a{
+    color: skyblue ;
+}
+.email a:hover{
+    background-color: black;
+    color: teal;
+}
