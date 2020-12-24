@@ -1,2 +1,0 @@
-# Project-progate
-Progate Webathon
